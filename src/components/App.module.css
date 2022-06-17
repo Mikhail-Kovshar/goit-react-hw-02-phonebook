@@ -1,0 +1,12 @@
+.container{
+    border: 1px solid #000;
+    padding: 15px 20px;
+    width: 350px;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+}
+.filter{
+    width: 100px;
+}

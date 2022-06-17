@@ -1,0 +1,20 @@
+.filter__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+  }
+  .filter__field {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+  }
+  .filter__input {
+    width: 150px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+  .filter__input:focus-within {
+    border-color: blue;
+  }
