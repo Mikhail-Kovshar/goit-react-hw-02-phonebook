@@ -6,7 +6,7 @@ import Contact from 'components/Contact/Contact';
 class ContactsList extends Component {
   render() {
     const { contacts, onDeleteContact } = this.props;
-    console.log(contacts);
+    
     return (
       <ul className={s.contactsList}>
         {contacts.map(contact => (
