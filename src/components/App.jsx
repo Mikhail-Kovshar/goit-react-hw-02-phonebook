@@ -94,7 +94,7 @@ import Filter from './Filter/Filter';
 //     </div>
 //     </div>
 //   )}
-// };
+// }; step1
 export  class App extends Component{
 
   state = {
